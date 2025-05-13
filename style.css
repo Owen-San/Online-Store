@@ -997,6 +997,10 @@ footer {
         padding-left: 20px;
     }
 
+    .quality__img--wrapper {
+        width: 100%;
+    }
+
     .step {
         display: flex;
         flex-direction: column;
@@ -1046,6 +1050,19 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .quality__description {
+        width: 100%;
+    }
+
+    .testimonials__description {
+        width: 100%;
+    }
+
+    .testimonial__profile {
+        display: flex;
+        flex-direction: column;
     }
 
     .value {
