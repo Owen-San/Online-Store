@@ -989,7 +989,7 @@ footer {
     }
 
     .steps__img {
-        max-width: 512px;
+        max-width: 100%;
         padding-bottom: 32px;
         padding-left: 20px;
     }
@@ -1139,6 +1139,35 @@ footer {
 }
 
 @media (max-width: 480px) {
+
+    .header__description {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        gap: 32px;
+    }
+
+    .header__email {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__email--input {
+        position: static;
+        padding: 16px 0;
+        padding-left: 32px;
+        line-height: 1.5;
+    }
+
+    .header__email--btn {
+        width: 100%;
+        padding: 16px 0;
+        margin: 16px 0;
+        margin-bottom: 0px;
+        line-height: 1.5;
+    }
     
     .testimonial__bottom {
         display: flex;
