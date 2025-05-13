@@ -46,12 +46,6 @@ The site mimics a SaaS product homepage, featuring:
 
 ---
 
-## 📸 Screenshots
-
-> 📱 Mobile View and 🖥️ Desktop View both supported with custom responsive styling
-
----
-
 ## 🧠 Skills Demonstrated
 
 * Building **fully responsive web layouts** from scratch
