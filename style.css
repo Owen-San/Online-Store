@@ -277,11 +277,6 @@ header .row {
     text-align: center;
 }
 
-#features .section__para {
-    text-align: center;
-    max-width: 576px;
-}
-
 .row__narrow {
     margin: 0 auto;
     max-width: 1024px;
@@ -354,6 +349,7 @@ header .row {
     font-weight: 500;
     color: #7c8ba1;
     line-height: 1.625;
+    max-width: 100%;
 }
 
 /* QUALITY */
@@ -494,11 +490,6 @@ header .row {
 #pricing .section__title {
     display: flex;
     justify-content: center;
-}
-
-#pricing .section__para {
-    max-width: 680px;
-    text-align: center;
 }
 
 .plans {
@@ -957,8 +948,20 @@ footer {
         flex-direction: column;
     }
 
+    .header__email--input {
+        text-align: center;
+    }
+
+    .plan__price {
+        padding-right: 24px;
+    }
+
     .header__description {
         padding: 0 120px;
+    }
+
+    .header__description--para {
+        margin-top: 0;
     }
 
     h1 {
@@ -985,13 +988,26 @@ footer {
     }
 
     .header__img {
-        max-width: 100%;
+        max-width: 300px;
     }
 
     .steps__img {
         max-width: 100%;
         padding-bottom: 32px;
         padding-left: 20px;
+    }
+
+    .step {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 12px;
+    }
+
+    .step__description {
+        margin: 0;
     }
 
     .values__img {
@@ -1146,7 +1162,7 @@ footer {
         flex-direction: column;
         align-items: center;
         padding: 0;
-        gap: 32px;
+        gap: 28px;
     }
 
     .header__email {
@@ -1184,10 +1200,6 @@ footer {
         width: 100%;
     }
 
-    .section__para {
-        max-width: 100%;
-    }
-
     .footer__column {
         gap: 24px;
         text-align: center;
@@ -1214,6 +1226,24 @@ footer {
     }
 
     .start__container {
-        height: 350px;
+        height: 380px;
+    }
+
+    .start__buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 300px;
+        gap: 12px;
+    }
+
+    .start__button:nth-child(1) {
+        margin: 0;
+    }
+
+    .footer__columns {
+        display: flex;
+        justify-content: center;
+        gap: 32px;
     }
 }
