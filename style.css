@@ -985,7 +985,7 @@ footer {
     }
 
     .header__img {
-        max-width: 512px;
+        max-width: 100%;
     }
 
     .steps__img {
