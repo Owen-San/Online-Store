@@ -250,6 +250,20 @@ header .row {
     background-color: rgba(60, 13, 153);
 }
 
+.second__email--btn {
+    z-index: 2;
+    margin: 8px;
+    width: 100%;
+    padding: 24px;
+    border-radius: 500px;
+    border: none;
+    background-color: #6415ff;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    visibility: hidden;
+}
+
 .header__customers--title {
     margin-top: 80px;
     color: #a0aec0;
@@ -1187,19 +1201,18 @@ footer {
         flex-direction: column;
     }
 
+    .second__email--btn {
+        visibility: visible;
+    }
+
     .header__email--input {
-        position: static;
         padding: 16px 0;
-        padding-left: 32px;
+        padding-left: 0;
         line-height: 1.5;
     }
 
     .header__email--btn {
-        width: 100%;
-        padding: 16px 0;
-        margin: 16px 0;
-        margin-bottom: 0px;
-        line-height: 1.5;
+        visibility: hidden;
     }
     
     .testimonial__bottom {
