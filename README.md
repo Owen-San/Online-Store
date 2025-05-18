@@ -63,7 +63,7 @@ Created by Owen as a final school project. For any questions or collaboration:
 
 * [GitHub](https://github.com/Owen-San)
 * [Email](mailto:iamnytla@gmail.com)
-* [LinkedIn](https://www.linkedin.com/in/owen-sanchez-0b9964358/)
+* [LinkedIn](https://www.linkedin.com/in/owen-san/)
 * Frontend Developer & Freelancer
 
 ---
